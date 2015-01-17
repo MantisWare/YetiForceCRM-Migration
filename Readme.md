@@ -1,8 +1,8 @@
 
-Scripts to migrate vTiger 6.x to YetiForce 1.1
-===============================================
+### Scripts to migrate vTiger 6.x to YetiForce 1.1
 
-#### You need to follow these steps to migrate a vTiger 6.1 system, that was upgraded from version 6.0, to YetiForce 1.1.
+
+#### You follow these steps to migrate a vTiger 6.1 system, that was upgraded from version 6.0, to YetiForce 1.1.
 
 
 1. Make a backup of your existing system, both files and database!!!!!!!  **ONCE STARTED THERE IS NO WAY BACK!!**
@@ -19,7 +19,7 @@ Scripts to migrate vTiger 6.x to YetiForce 1.1
    Note: Ignore error messages
 
 5. Apply Yeti 1.1 DB schema changes using command = mysql -f -u _[username]_ -p[password] _[database]_ < VT610_to_YT100_update.sql
-   Important: You need to take care of any errors before going to next step
+   Important: You'll need to take care of any errors before continue with next step
 
 6. Run YetiForce 1.1 web based migration process
 
