@@ -32,4 +32,4 @@
    
    
 
-**Tip: At first login to YetiForce 1.1 you may get a page showing html code with an error message of 'invalid object'. In order to overcome this problem, install a clean YetiForce 1.1 instance and then switch the database to the migrated one.**
+**Tip:** At first login to YetiForce 1.1 you may get a page showing html code with an error message of 'invalid object'. In order to overcome this problem, install a clean YetiForce 1.1 instance and then switch the database to the migrated one.
