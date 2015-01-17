@@ -15,7 +15,7 @@
 
 5. Copy files 'pre-migration-yeti_1.1.sql', 'VT610_to_YT100_update.sql', 'post-migration-yeti_1.1.sql', 'VT610_to_YT100.php' to folder = [yeti web dir]/install/migrate_schema
 
-4. Prepare VT 6.1 database for migration using command = mysql -f -u _[username]_ -p[password] [database]_ < pre-migration-yeti_1.1.sql 
+4. Prepare VT 6.1 database for migration using command = mysql -f -u _[username]_ -p[password] _[database]_ < pre-migration-yeti_1.1.sql 
 
    ..* __Note:__ Ignore error messages
 
